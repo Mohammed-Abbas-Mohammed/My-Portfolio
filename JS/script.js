@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // script.js
 document.getElementById('copyButton').addEventListener('click', function() {
-    var textArea = 'moh.alnoby216@gmail.com';
+    var textArea = document.getElementById('textToCopy');
     textArea.select();
     textArea.setSelectionRange(0, 99999); // For mobile devices
 
